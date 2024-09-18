@@ -11,9 +11,9 @@
 # Data Out: The cost of gas for the trip.
 
 #Prompt user to input the values for miles, MPG, and gas price.
-miles_traveled = int(input("How many miles will you travel?"))
-miles_per_gallon = int(input("What is the miles per gallon of your vehicle?"))
-gas_cost = float(input("What is the cost of gas?"))
+miles_traveled = int(input("How many miles will you travel? "))
+miles_per_gallon = int(input("What is the miles per gallon of your vehicle? "))
+gas_cost = float(input("What is the cost of gas? "))
 
 #Calculate the total gas cost.
 total_gas_cost = (miles_traveled / miles_per_gallon) * gas_cost
